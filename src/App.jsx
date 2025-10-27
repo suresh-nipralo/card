@@ -9,10 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Redirect root to default member */}
-        {/* <Route path="/" element={<Navigate to="/:slug" replace />} /> */}
         <Route path="/:slug" element={<TeamMemberPage />} />
-        <Route path="/" element={<HomePage/>} />
+        {/* <Route path="/" element={<HomePage/>} /> */}
       </Routes>
     </BrowserRouter>
   );
